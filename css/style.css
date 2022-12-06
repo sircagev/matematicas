@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+.triangulo{
+    justify-content: center;
+    align-items: center;
+    display:flex
+}
+
+.input-tria{
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.paralelepipedo{
+    justify-content: center;
+    align-items: center;
+    display:flex
+}

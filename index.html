@@ -6,28 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perimetros, Areas y Volumenes</title>
     <script src="js/perimetros YAreas.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Perimetros, Áreas y Volumenes</h1>
     <h2 class="figuras-planas">Figuras Planas</h2>
+    <h3>Perimetro y Area del Triángulo</h3>
     <div class="triangulo">
-        <h3>Perimetro y Area del Triángulo</h3>
-        <input type="number" name="baset" id="baset" placeholder="Base del triangulo"><br>
-        <input type="number" name="alturat" id="alturat" placeholder="Altura del triángulo"><br><br>
-        <input type="number" name="lado1t" id="lado1t" placeholder="Lado 1"><br>
-        <input type="number" name="lado2t" id="lado2t" placeholder="Lado 2"><br>
-        <input type="number" name="lado3t" id="lado3t" placeholder="Lado 3"><br><br>
-        <button onclick="enviart()">Enviar</button><br>
-        <p id="respuestat"></p><br>
+        <div class="input-tria">
+            <input type="number" name="baset" id="baset" placeholder="Base del triangulo"><br>
+            <input type="number" name="alturat" id="alturat" placeholder="Altura del triángulo"><br><br>
+            <input type="number" name="lado1t" id="lado1t" placeholder="Lado 1"><br>
+            <input type="number" name="lado2t" id="lado2t" placeholder="Lado 2"><br>
+            <input type="number" name="lado3t" id="lado3t" placeholder="Lado 3"><br><br>
+            <button onclick="enviart()">Enviar</button><br>
+            <p id="respuestat"></p><br>
+        </div>
+        <div class="img-tria">
+            <img src="images/triangulo.png">
+        </div>
     </div>
     <h2 class="figuras-solidas">Figuras Solidos</h2>
+    <h3>Perimetro, Area y Volumen del Paralelepipedo</h3>
     <div class="paralelepipedo">
-        <h3>Perimetro, Area y Volumen del Paralelepipedo</h3>
-        <input type="number" name="alturap" id="alturap" placeholder="Altura"><br>
-        <input type="number" name="anchop" id="anchop" placeholder="Ancho"><br>
-        <input type="number" name="largop" id="largop" placeholder="Largo"><br><br>
-        <button onclick="enviarp()">Enviar</button><br>
-        <p id="respuestap"></p><br>
+        <div>
+            <input type="number" name="alturap" id="alturap" placeholder="Altura"><br>
+            <input type="number" name="anchop" id="anchop" placeholder="Ancho"><br>
+            <input type="number" name="largop" id="largop" placeholder="Largo"><br><br>
+            <button onclick="enviarp()">Enviar</button><br>
+            <p id="respuestap"></p><br>
+        </div>
+        <div>
+            <img src="images/paralelepipedo.jpg">
+        </div>
     </div>
 </body>
 </html>
