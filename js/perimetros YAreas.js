@@ -18,7 +18,7 @@ function enviarp(){
     anchop = document.getElementById('anchop').value
     largop = document.getElementById('largop').value
     perimetrop = alturap*4 + anchop*4 +largop*4 
-    areap = ((parseFloat(alturap)+parseFloat(anchop))*2) + ((parseFloat(alturap)+parseFloat(largop))*2) + ((parseFloat(anchop) + parseFloat(largop))*2)
+    areap = (alturap*anchop*2) + (alturap*largop*2) + (anchop*largop*2)
     volumenp = alturap*anchop*largop
     console.log()
     document.getElementById('respuestap').innerHTML="El perimetro es "+perimetrop+", el area es "+areap+", el volumen es "+volumenp
