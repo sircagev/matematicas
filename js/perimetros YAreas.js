@@ -12,6 +12,33 @@ function enviart(){
     document.getElementById('respuestat').innerHTML="El Perimetro del Triangulo es "+perimetrot+", el área es "+areat
 }
 
+function enviarc(){
+    let lado, peri, area
+    lado = document.getElementById('ladoc').value
+    peri = lado*4
+    area = lado*lado
+    document.getElementById('respuestac').innerHTML="El perimetro es "+peri+",el área es "+area
+}
+
+function enviarr(){
+    let base, altura, peri, area
+    base = document.getElementById('baser').value
+    altura = document.getElementById('alturar').value
+    peri = base*2 + altura*2
+    area = base*altura
+    document.getElementById('respuestar').innerHTML="El perimetro es "+peri+", el area es "+ area
+}
+
+function enviarrom(){
+    let diaMe, diaMa, lado, peri, area
+    diaMe = document.getElementById('diagonal-menor').value
+    diaMa = document.getElementById('diagonal-mayor').value
+    lado = document.getElementById('lado-rom').value
+    peri = lado*4
+    area = (diaMa*diaMe)/2
+    document.getElementById('respuesta-rom').innerHTML="El perimetro es "+peri+", el área es "+area
+}
+
 function enviarp(){
     let alturap, anchop, largop, perimetrop,areap,volumenp
     alturap = document.getElementById('alturap').value
