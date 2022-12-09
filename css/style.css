@@ -14,13 +14,13 @@ p{
     text-align: center;
 }
 
-.triangulo{
+.triangulo, .cuadrado, .rectangulo, .rombo, .trapec, .circulo, .esfera, .cubo, .paralelepipedo, .cilindro, .cono{
     justify-content: center;
     align-items: center;
     display:flex
 }
 
-.input-tria{
+.input-tria, .input-cua, .input-rec, .input-rom, .input-tra, .input-circ, .input-esfera, .input-cubo, .input-paralele, .input-cilindro, .input-cono{
     align-items: center;
     width: 250px;
     height: 250px;
@@ -35,30 +35,74 @@ p{
     margin: 30px;
 }
 
-.cuadrado{
-    justify-content: center;
-    align-items: center;
-    display:flex
-}
-
-.input-cua{
-    align-items: center;
-    width: 250px;
-    height: 250px;
-    padding: 20px;
-}
-
 .img-cua{
-    width: 250px;
+    width: 275px;
     height: 250px;
     background-image: url(../images/cuadrado.png);
     background-size: cover;
     margin: 30px;
 }
 
-.paralelepipedo{
-    justify-content: center;
-    align-items: center;
-    display:flex
+.img-rec{
+    height: 250px;
+    width: 370px;
+    margin: 30px;
+    background-size: cover;
+    background-image: url(../images/romboide.jpg)
 }
 
+.img-rom{
+    height: 250px;
+    width: 250px;
+    margin: 30px;
+    background-size: cover;
+    background-image: url(../images/rombo.png)
+}
+
+.img-tra{
+    height: 250px;
+    width: 250px;
+    margin: 30px;
+    background-size: cover;
+    background-image: url(../images/trapecio.png)
+}
+
+.img-circ{
+    height: 250px;
+    width: 250px;
+    margin: 30px;
+    background-size: cover;
+    background-image: url(../images/circulo.png)
+}
+
+.img-esf{
+    height: 250px;
+    width: 200px;
+    margin: 30px;
+    background-size: cover;
+    background-image: url(../images/esfera.jpg)
+}
+
+.img-cubo{
+    height: 250px;
+    width: 250px;
+    margin: 30px;
+    background-size: cover;
+    background-image: url(../images/cubo.png)
+}
+
+.img-cilin{
+    height: 250px;
+    width: 250px;
+    margin: 30px;
+    background-size: cover;
+    background-image: url(../images/cilindro.png)
+}
+
+.img-cono{
+    height: 250px;
+    width: 280px;
+    margin: 30px;
+    background-size: cover;
+    background-image: url(../images/cono.png)
+}
