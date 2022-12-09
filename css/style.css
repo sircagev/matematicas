@@ -9,6 +9,11 @@ h2{
 h3{
     text-align: center;
 }
+
+p{
+    text-align: center;
+}
+
 .triangulo{
     justify-content: center;
     align-items: center;
@@ -19,7 +24,36 @@ h3{
     align-items: center;
     width: 250px;
     height: 250px;
-    border: 1px solid black;
+    padding: 20px;
+}
+
+.img-tria{
+    width: 205px;
+    height: 250px;
+    background-image: url(../images/triangulo.png);
+    background-size: cover;
+    margin: 30px;
+}
+
+.cuadrado{
+    justify-content: center;
+    align-items: center;
+    display:flex
+}
+
+.input-cua{
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+
+.img-cua{
+    width: 250px;
+    height: 250px;
+    background-image: url(../images/cuadrado.png);
+    background-size: cover;
+    margin: 30px;
 }
 
 .paralelepipedo{
@@ -27,3 +61,4 @@ h3{
     align-items: center;
     display:flex
 }
+

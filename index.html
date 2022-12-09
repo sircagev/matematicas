@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perimetros, Areas y Volumenes</title>
+    <title>Perímetro, Áreas y Volumenes</title>
     <script src="js/perimetros YAreas.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Perimetros, Áreas y Volumenes</h1>
     <h2 class="figuras-planas">Figuras Planas</h2>
-    <h3>Perimetro y Area del Triángulo</h3>
+    <h3>Perimetro y Área del Triángulo</h3>
     <div class="triangulo">
         <div class="input-tria">
             <input type="number" name="baset" id="baset" placeholder="Base del triangulo"><br>
@@ -23,7 +23,7 @@
             <p id="respuestat"></p><br>
         </div>
         <div class="img-tria">
-            <img src="images/triangulo.png">
+            
         </div>
     </div>
     <h3>Perimetro y Área del Cuadrado</h3>
@@ -77,18 +77,75 @@
 
         </div>
     </div>
+    <h3>Perimetro y Área del Círculo</h3>
+    <div class="circulo">
+        <div class="input-circ">
+            <input type="number" name="radio" id="radio" placeholder="Radio del Circulo">
+            <button onclick="enviarcirc()">Enviar</button>
+            <p id="respuesta-circ"></p>
+        </div>
+        <div class="img-circ">
+
+        </div>
+    </div>
     <h2 class="figuras-solidas">Figuras Solidos</h2>
+    <h3>Perimetro, Área y Volumen de la esfera</h3>
+    <div class="esfera">
+        <div class="input-esfera">
+            <input type="number" name="radio-esf" id="radio-esf" placeholder="Radio">
+            <button onclick="enviaresf()">Enviar</button>
+            <p id="respuesta-esf"></p>
+        </div>
+        <div class="img-esf">
+
+        </div>
+    </div>
+    <h3>Perimetro, Área y Volumen del Cubo</h3>
+    <div class="cubo">
+        <div class="input-cubo">
+            <input type="number" name="lado-cubo" id="lado-cubo" placeholder="Lado Cubo">
+            <button onclick="enviarcubo()">Enviar</button>
+            <p id="respuesta-cubo"></p>
+        </div>
+        <div class="img-cubo">
+
+        </div>
+    </div>
     <h3>Perimetro, Area y Volumen del Paralelepipedo</h3>
     <div class="paralelepipedo">
-        <div>
+        <div class="input-paralele">
             <input type="number" name="alturap" id="alturap" placeholder="Altura"><br>
             <input type="number" name="anchop" id="anchop" placeholder="Ancho"><br>
             <input type="number" name="largop" id="largop" placeholder="Largo"><br><br>
             <button onclick="enviarp()">Enviar</button><br>
             <p id="respuestap"></p><br>
         </div>
-        <div>
+        <div class="img-parale">
             <img src="images/paralelepipedo.jpg">
+        </div>
+    </div>
+    <h3>Perimetro, Àrea y Volumen del Cilindro</h3>
+    <div class="cilindro">
+        <div class="input-cilindro">
+            <input type="number" name="radio-cilindro" id="radio-cilindro" placeholder="Radio Cilindro">
+            <input type="number" name="altura-cilindro" id="altura-cilindro" placeholder="Altura Cilindro">
+            <button onclick="enviarcilin()">Enviar</button>
+            <p id="respuesta-cilindro"></p>
+        </div>
+        <div class="imag-cilin">
+
+        </div>
+    </div>
+    <h3>Perímetro, Área y Volumen del Cono</h3>
+    <div class="cono">
+        <div class="input-cono">
+            <input type="number" name="radio-cono" id="radio-cono" placeholder="Radio Cono">
+            <input type="number" name="altura-cono" id="altura-cono" placeholder="Altura Cono">
+            <button onclick="enviarcono()">Enviar</button>
+            <p id="respuesta-cono"></p>
+        </div>
+        <div class="img-cono">
+
         </div>
     </div>
 </body>
