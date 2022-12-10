@@ -72,35 +72,35 @@ function circulo(){
 
 function esfera(){
     noVer()
-    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('figuras-solidas').style.display ='block'
     document.getElementById('esfera').style.display = 'flex'
     document.getElementById('titulo-esfera').style.display = 'block'
 }
 
 function paralelepipedo(){
     noVer()
-    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('figuras-solidas').style.display ='block'
     document.getElementById('paralelepipedo').style.display = 'flex'
     document.getElementById('titulo-paralelepipedo').style.display = 'block'
 }
 
 function cubo(){
     noVer()
-    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('figuras-solidas').style.display ='block'
     document.getElementById('cubo').style.display = 'flex'
     document.getElementById('titulo-cubo').style.display = 'block'
 }
 
 function cilindro(){
     noVer()
-    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('figuras-solidas').style.display ='block'
     document.getElementById('cilindro').style.display = 'flex'
     document.getElementById('titulo-cilindro').style.display = 'block'
 }
 
 function cono(){
     noVer()
-    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('figuras-solidas').style.display ='block'
     document.getElementById('cono').style.display = 'flex'
     document.getElementById('titulo-cono').style.display = 'block'
 }
