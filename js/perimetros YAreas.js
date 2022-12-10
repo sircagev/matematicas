@@ -1,3 +1,110 @@
+let tituloPlanas = document.getElementById('figuras-planas')
+let tituloSolidos = document.getElementById('figuras-solidas')
+
+function noVer(){
+    document.getElementById('triangulo').style.display = 'none'
+    document.getElementById('titulo-triangulo').style.display = 'none'
+    document.getElementById('figuras-planas').style.display ='none'
+    document.getElementById('figuras-solidas').style.display ='none'
+    document.getElementById('titulo-cuadrado').style.display = 'none'
+    document.getElementById('cuadrado').style.display ='none'
+    document.getElementById('titulo-rectangulo').style.display ='none'
+    document.getElementById('rectangulo').style.display ='none'
+    document.getElementById('titulo-rombo').style.display ='none'
+    document.getElementById('rombo').style.display ='none'
+    document.getElementById('titulo-trapecio').style.display ='none'
+    document.getElementById('titulo-circulo').style.display ='none'
+    document.getElementById('titulo-esfera').style.display ='none'
+    document.getElementById('titulo-cubo').style.display ='none'
+    document.getElementById('titulo-paralelepipedo').style.display ='none'
+    document.getElementById('titulo-cono').style.display ='none'
+    document.getElementById('titulo-cilindro').style.display ='none'
+    document.getElementById('trapecio').style.display ='none'
+    document.getElementById('circulo').style.display ='none'
+    document.getElementById('esfera').style.display ='none'
+    document.getElementById('cubo').style.display ='none'
+    document.getElementById('paralelepipedo').style.display ='none'
+    document.getElementById('cilindro').style.display ='none'
+    document.getElementById('cono').style.display ='none'
+}
+
+function cuadrado(){
+    noVer()
+    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('titulo-cuadrado').style.display = 'block'
+    document.getElementById('cuadrado').style.display ='flex'
+}
+
+function triangulo(){
+    noVer()
+    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('triangulo').style.display = 'flex'
+    document.getElementById('titulo-triangulo').style.display = 'block'
+}
+
+function romboide(){
+    noVer()
+    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('rectangulo').style.display = 'flex'
+    document.getElementById('titulo-rectangulo').style.display = 'block'
+}
+
+function rombo(){
+    noVer()
+    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('rombo').style.display = 'flex'
+    document.getElementById('titulo-rombo').style.display = 'block'
+}
+
+function trapecio(){
+    noVer()
+    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('trapecio').style.display = 'flex'
+    document.getElementById('titulo-trapecio').style.display = 'block'
+}
+
+function circulo(){
+    noVer()
+    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('circulo').style.display = 'flex'
+    document.getElementById('titulo-circulo').style.display = 'block'
+}
+
+function esfera(){
+    noVer()
+    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('esfera').style.display = 'flex'
+    document.getElementById('titulo-esfera').style.display = 'block'
+}
+
+function paralelepipedo(){
+    noVer()
+    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('paralelepipedo').style.display = 'flex'
+    document.getElementById('titulo-paralelepipedo').style.display = 'block'
+}
+
+function cubo(){
+    noVer()
+    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('cubo').style.display = 'flex'
+    document.getElementById('titulo-cubo').style.display = 'block'
+}
+
+function cilindro(){
+    noVer()
+    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('cilindro').style.display = 'flex'
+    document.getElementById('titulo-cilindro').style.display = 'block'
+}
+
+function cono(){
+    noVer()
+    document.getElementById('figuras-planas').style.display ='block'
+    document.getElementById('cono').style.display = 'flex'
+    document.getElementById('titulo-cono').style.display = 'block'
+}
+
 function enviart(){
     let baset,alturat,l1t,l2t,l3t,perimetrot,areat
     /*Captura el dato ingresado en el input con id nombre*/
@@ -107,3 +214,5 @@ function enviarcono(){
     volumen =(Math.PI*altura*radio**2)/3
     document.getElementById('respuesta-cono').innerHTML="El perimetro es "+peri+", el area es "+area+", el volumen es "+volumen
 }
+
+window.addEventListener('load', noVer)

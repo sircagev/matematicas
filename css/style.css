@@ -1,3 +1,7 @@
+body{
+    justify-content: center;
+}
+
 h1{
     text-align: center;
 }
@@ -14,10 +18,19 @@ p{
     text-align: center;
 }
 
+.boton-seleccion{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 350px;
+    margin-left: 37%;
+}
+
 .triangulo, .cuadrado, .rectangulo, .rombo, .trapec, .circulo, .esfera, .cubo, .paralelepipedo, .cilindro, .cono{
     justify-content: center;
     align-items: center;
-    display:flex
+    display:flex;
+    flex-direction: row;
 }
 
 .input-tria, .input-cua, .input-rec, .input-rom, .input-tra, .input-circ, .input-esfera, .input-cubo, .input-paralele, .input-cilindro, .input-cono{
