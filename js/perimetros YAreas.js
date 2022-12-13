@@ -213,19 +213,17 @@ function enviarcilin(){
     let altura, radio, peri, area, volumen
     altura = document.getElementById('altura-cilindro').value
     radio = document.getElementById('radio-cilindro').value
-    peri = 1221
     area = 2*Math.PI*radio*(parseFloat(radio)+parseFloat(altura))
     volumen =Math.PI*altura*radio**2
-    document.getElementById('respuesta-cilindro').innerHTML="El perimetro es "+peri+", el area es "+area+", el volumen es "+volumen
+    document.getElementById('respuesta-cilindro').innerHTML="El área es "+area+", el volumen es "+volumen
 }
 function enviarcono(){
     let altura, radio, peri, area, volumen
     altura = document.getElementById('altura-cono').value
     radio = document.getElementById('radio-cono').value
-    peri = 1221
     area = Math.PI*radio*(parseFloat(radio)+Math.sqrt(radio**2 + altura**2))
     volumen =(Math.PI*altura*radio**2)/3
-    document.getElementById('respuesta-cono').innerHTML="El perimetro es "+peri+", el area es "+area+", el volumen es "+volumen
+    document.getElementById('respuesta-cono').innerHTML="El área es "+area+", el volumen es "+volumen
 }
 
 function enviarSolidoIrre(){
