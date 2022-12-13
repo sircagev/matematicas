@@ -22,12 +22,17 @@ p{
     text-align: center;
 }
 
+ #boton{
+    width: 155px;
+    margin: 1px;
+ }
+
 .boton-seleccion{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 350px;
-    margin-left: 37%;
+    width: 20%;
+    margin-left: 40%;
 }
 
 .triangulo, .cuadrado, .rectangulo, .rombo, .trapec, .circulo, .esfera, .cubo, .paralelepipedo, .cilindro, .cono, .solido-irregular{
