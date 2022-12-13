@@ -14,6 +14,10 @@ h3{
     text-align: center;
 }
 
+h4{
+    text-align: center;
+}
+
 p{
     text-align: center;
 }
@@ -26,14 +30,14 @@ p{
     margin-left: 37%;
 }
 
-.triangulo, .cuadrado, .rectangulo, .rombo, .trapec, .circulo, .esfera, .cubo, .paralelepipedo, .cilindro, .cono{
+.triangulo, .cuadrado, .rectangulo, .rombo, .trapec, .circulo, .esfera, .cubo, .paralelepipedo, .cilindro, .cono, .solido-irregular{
     justify-content: center;
     align-items: center;
     display:flex;
     flex-direction: row;
 }
 
-.input-tria, .input-cua, .input-rec, .input-rom, .input-tra, .input-circ, .input-esfera, .input-cubo, .input-paralele, .input-cilindro, .input-cono{
+.input-tria, .input-cua, .input-rec, .input-rom, .input-tra, .input-circ, .input-esfera, .input-cubo, .input-paralele, .input-cilindro, .input-cono, .input-solido-irregular{
     align-items: center;
     width: 250px;
     height: 250px;
@@ -118,4 +122,12 @@ p{
     margin: 30px;
     background-size: cover;
     background-image: url(../images/cono.png)
+}
+
+.img-solido-irregular{
+    height: 250px;
+    width: 325px;
+    margin: 30px;
+    background-size: cover;
+    background-image: url(../images/solidoIrregular.jpg)
 }

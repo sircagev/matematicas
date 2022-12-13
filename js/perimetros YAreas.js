@@ -19,6 +19,8 @@ function noVer(){
     document.getElementById('titulo-paralelepipedo').style.display ='none'
     document.getElementById('titulo-cono').style.display ='none'
     document.getElementById('titulo-cilindro').style.display ='none'
+    document.getElementById('titulo-solido-irregular').style.display ='none'
+    document.getElementById('titulo-solido-irregular2').style.display ='none'
     document.getElementById('trapecio').style.display ='none'
     document.getElementById('circulo').style.display ='none'
     document.getElementById('esfera').style.display ='none'
@@ -26,6 +28,8 @@ function noVer(){
     document.getElementById('paralelepipedo').style.display ='none'
     document.getElementById('cilindro').style.display ='none'
     document.getElementById('cono').style.display ='none'
+    document.getElementById('solido-irregular').style.display ='none'
+    document.getElementById('solido-irregular1').style.display ='none'
 }
 
 function cuadrado(){
@@ -103,6 +107,15 @@ function cono(){
     document.getElementById('figuras-solidas').style.display ='block'
     document.getElementById('cono').style.display = 'flex'
     document.getElementById('titulo-cono').style.display = 'block'
+}
+
+function solidoIrregular(){
+    noVer()
+    document.getElementById('figuras-solidas').style.display ='block'
+    document.getElementById('solido-irregular').style.display = 'flex'
+    document.getElementById('titulo-solido-irregular').style.display = 'block'
+    document.getElementById('solido-irregular1').style.display ='block'
+    document.getElementById('titulo-solido-irregular2').style.display ='block'
 }
 
 function enviart(){
@@ -213,6 +226,14 @@ function enviarcono(){
     area = Math.PI*radio*(parseFloat(radio)+Math.sqrt(radio**2 + altura**2))
     volumen =(Math.PI*altura*radio**2)/3
     document.getElementById('respuesta-cono').innerHTML="El perimetro es "+peri+", el area es "+area+", el volumen es "+volumen
+}
+
+function enviarSolidoIrre(){
+    let volumenI, volumenF, volumenSI
+    volumenI = document.getElementById('volumen-inicial').value
+    volumenF = document.getElementById('volumen-final').value
+    volumenSI = volumenF - volumenI
+    document.getElementById('respuesta-solido-irregular').innerHTML = "El volumen del sólido es "+ volumenSI
 }
 
 window.addEventListener('load', noVer)

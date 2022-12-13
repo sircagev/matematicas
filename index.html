@@ -22,6 +22,7 @@
         <button onclick="paralelepipedo()">Paralelepípedo</button>
         <button onclick="cilindro()">Cilindro</button>
         <button onclick="cono()">Cono</button>
+        <button onclick="solidoIrregular()">Sólido Irregular</button>
     </div>
     <h2 class="figuras-planas" id="figuras-planas">Figuras Planas</h2>
     <h3 id="titulo-triangulo">Perimetro y Área del Triángulo</h3>
@@ -158,6 +159,22 @@
             <p id="respuesta-cono"></p>
         </div>
         <div class="img-cono">
+
+        </div>
+    </div>
+    <h3 id="titulo-solido-irregular">Volumen de un Sólido Irregular</h3>
+    <h4 id="titulo-solido-irregular2">Se realiza mediante el principio de Arquimedes</h4>
+    <p id="solido-irregular1"> “todo cuerpo sumergido dentro de un fluido experimenta una fuerza ascendente llamada empuje, equivalente al peso del fluido desalojado por el cuerpo”.</p>
+    <div class="solido-irregular" id="solido-irregular">
+        <div class="input-solido-irregular">
+            <label>1. Se toma la medida inicial de un liquido donde se pueda sumergir el solido a saber su volumen</label><br><br>
+            <input type="number" name="volumen-inicial" id="volumen-inicial" placeholder="Volumen Inicial"><br><br>
+            <label>2. Se sumerge el sólido en el líquido y se toma la medida en el que el liquido quedo</label><br><br>
+            <input type="number" name="volumen-final" id="volumen-final" placeholder="Volumen Final"><br>
+            <button onclick="enviarSolidoIrre()">Enviar</button>
+            <p id="respuesta-solido-irregular"></p>
+        </div>
+        <div class="img-solido-irregular">
 
         </div>
     </div>
